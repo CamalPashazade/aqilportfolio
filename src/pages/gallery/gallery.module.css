@@ -1,0 +1,50 @@
+
+
+.gallery
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container
+{
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+}
+
+
+
+.container img{
+    width: 350px;
+    height: 233px;
+    border-radius: 7px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+
+
+@media (max-width: 576px) { 
+
+    .container
+    {
+        width: 100%;
+     
+    }
+
+    .container img
+    {
+        width: 100%;
+     
+    }
+}
