@@ -30,6 +30,7 @@
     border-radius: 7px;
     object-fit: cover;
     margin: 5px;
+    cursor: pointer;
 }
 
 
@@ -45,6 +46,7 @@
     .container img
     {
         width: 100%;
+    
      
     }
 }
