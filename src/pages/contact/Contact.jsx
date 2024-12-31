@@ -41,7 +41,7 @@ const Contact = () => {
 
         <div className={styles.items}>
         <CiPhone  size={20} color='#b14930'/>
-            <h3>contact number:</h3>
+            <h3>Contact number:</h3>
             <p>+1234321321</p>
         </div>
         <div className={styles.items}>

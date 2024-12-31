@@ -11,7 +11,10 @@ const Navigation = () => {
   return (
     <nav className={styles.nav}>
 
+<div style={{display:"flex",alignItems:"center"}}>
 <h2><Link className={styles.link} to={'/'}>Aqil Suleymanov</Link></h2>
+<img src="/src/assets/AS.webp" className={styles.logo} alt="" />
+</div>
 
 
 <div className={styles.links}>
