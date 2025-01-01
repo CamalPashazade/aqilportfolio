@@ -13,7 +13,8 @@ const Navigation = () => {
 
 <div style={{display:"flex",alignItems:"center"}}>
 <h2><Link className={styles.link} to={'/'}>Aqil Suleymanov</Link></h2>
-<img src="/src/assets/AS.webp" className={styles.logo} alt="" />
+<Link className={styles.link} to={'/'}><img src="/src/assets/AS.webp" className={styles.logo} alt="" /></Link>
+
 </div>
 
 
