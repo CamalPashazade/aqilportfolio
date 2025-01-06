@@ -44,8 +44,11 @@ const NavMobile = () => {
 
 
       <div className={`${styles.mobilemenu} ${openNav ? styles.active : ''}`}>
+      <div className={styles.container}>
         {nav.map((item) => (
-          <Link
+
+     
+    <Link
             className={styles.mobilelink}
             key={item.id}
             to={item.path}
@@ -53,7 +56,10 @@ const NavMobile = () => {
           >
             {item.title}
           </Link>
+      
         ))}
+          </div>
+
       </div>
     </div>
   );

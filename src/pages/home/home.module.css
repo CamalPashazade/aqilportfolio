@@ -25,7 +25,50 @@
     height: 100%;
     object-fit: cover;
  
-}
+}.customPrevButton {
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    color: #fff;
+    background-color: rgb(105, 105, 105);
+    width:60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  
+  .customNextButton {
+    position: absolute;
+    top: 70%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    color: #fff;
+    background-color: rgb(105, 105, 105);
+    width:60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 576px) { 
