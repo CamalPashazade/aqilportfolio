@@ -36,18 +36,18 @@ const Contact = () => {
         <div className={styles.items}>
         <IoLocationOutline size={20} color='#b14930'/>
             <h3>Address</h3>
-            <p>123 Street, City, Country</p>
+            <p> Brooklyn New York  </p>
         </div>
 
         <div className={styles.items}>
         <CiPhone  size={20} color='#b14930'/>
             <h3>Contact number:</h3>
-            <p>+1234321321</p>
+            <p>+1737 207-2013 </p>
         </div>
         <div className={styles.items}>
         <SlEnvolopeLetter  size={20} color='#b14930'/>
             <h3>Email us:</h3>
-            <p>websitename@mail.com</p>
+            <p>aqil.suleymanov92@gmail.com </p>
         </div>
 
     </div>

@@ -49,7 +49,7 @@ const NavMobile = () => {
 
      
     <Link
-            className={styles.mobilelink}
+            className={styles.mobilelink_path}
             key={item.id}
             to={item.path}
             onClick={() => setOpenNav(false)} 

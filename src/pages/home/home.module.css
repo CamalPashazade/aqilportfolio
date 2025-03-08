@@ -1,9 +1,24 @@
-
-
-.home
-{
+.home {
     width: 100%;
-    min-height:100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.home > div{
+ 
+    width: 100%;
+    height: 700px;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  
 }
 
 
@@ -11,7 +26,6 @@
 {
     width: 100%;
     height: 880px;
-
 }
 
 .swiperslide
@@ -82,5 +96,11 @@
 }
 
 
-@media (min-width: 768px) {  }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .home img {
+      height: 100%;
+        
+    }
+}
 

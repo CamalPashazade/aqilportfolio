@@ -13,24 +13,24 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 
 const Home = () => {
-  const [enableNavigation, setEnableNavigation] = useState(true);
+  // const [enableNavigation, setEnableNavigation] = useState(true);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setEnableNavigation(window.innerWidth > 576);
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setEnableNavigation(window.innerWidth > 576);
+  //   };
     
-    handleResize(); // Set initial state
-    window.addEventListener('resize', handleResize);
+  //   handleResize(); // Set initial state
+  //   window.addEventListener('resize', handleResize);
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
 
   return (
     <div className={styles.home}>
-      <Swiper
+   {/*    <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay, EffectFade]}
         effect="fade"
         slidesPerView={1}
@@ -56,7 +56,12 @@ const Home = () => {
           <div className={styles.customPrevButton}><FaArrowLeft /></div>
           <div className={styles.customNextButton}><FaArrowRight /></div>
         </>
-      )}
+      )} */}
+
+<div>
+<img src="/src/assets/aqilimages/photo_2025-02-23_20-25-19.jpg" alt="" />
+</div>
+      
     </div>
   );
 };

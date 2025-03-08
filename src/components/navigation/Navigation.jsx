@@ -13,7 +13,7 @@ const Navigation = () => {
 
 <div style={{display:"flex",alignItems:"center"}}>
 <h2><Link className={styles.link} to={'/'}>Aqil Suleymanov</Link></h2>
-<Link className={styles.link} to={'/'}><img src="/src/assets/AS.webp" className={styles.logo} alt="" /></Link>
+{/* <Link className={styles.link} to={'/'}><img src="/src/assets/AS.webp" className={styles.logo} alt="" /></Link> */}
 
 </div>
 
@@ -22,7 +22,7 @@ const Navigation = () => {
 
     {nav.map((item) => 
     {
-        return <Link className={location.pathname === item.path ? styles.active : styles.link} key={item.id} to={item.path}>{item.title}</Link>
+        return <Link className={location.pathname === item.path ? styles.active : styles.link_path} key={item.id} to={item.path}>{item.title}</Link>
     })}
  
 

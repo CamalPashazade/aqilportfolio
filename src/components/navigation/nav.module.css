@@ -39,7 +39,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
     width: 600px;
     text-decoration: none;
     color: white;
@@ -49,9 +48,19 @@
 .link{
     text-decoration: none;
     color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Dancing Script", cursive;
+}
+
+.link_path{
+    text-decoration: none;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     transition: 0.3s;
+  
 }
 
 .active
@@ -176,13 +185,24 @@ display: none;
 {
     text-decoration: none;
     color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
     display: block;
     justify-content: space-around;
     
+}
+
+
+.mobilelink_path
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    justify-content: space-around;
     
-  
 }
 
 }

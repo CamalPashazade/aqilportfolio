@@ -13,23 +13,23 @@ const Footer = () => {
 
         <div className={styles.container}>
 
-<p>Copyright ©2024 All rights reserved | This website is made with  by myself</p>
+<p>Copyright ©2025 All rights reserved </p>
 
-<h3>S.Aqil</h3>
+<h3 className={styles.name}>S.Aqil</h3>
 
 
 <div className={styles.social_media}>
           <a href="https://www.facebook.com/aqil.suleymanov.1" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF  className={styles.link} />
+            <FaFacebookF className={`${styles.link} ${styles.link_facebook}`}  />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className={styles.link} />
+            <FaTwitter className={`${styles.link} ${styles.link_twitter}`} />
           </a>
           <a href="https://www.instagram.com/aqil.s92/" target="_blank" rel="noopener noreferrer">
-            <FaInstagram className={styles.link} />
+            <FaInstagram className={`${styles.link} ${styles.link_instagram}`} />
           </a>
           <a href="https://www.linkedin.com/in/aqil-suleymanov-7b919b209/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn className={styles.link} />
+            <FaLinkedinIn className={`${styles.link} ${styles.link_linkedin}`} />
           </a>
         </div>
         </div>

@@ -12,6 +12,13 @@
     margin-top:20px ;
 }
 
+.footer .name
+{
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Dancing Script", cursive;
+}
+
 
 .container
 {
@@ -41,16 +48,59 @@
     font-size: 20px;
     transition: 0.3s;
     color: black;
-
-}
-
-.link:hover
-{
-    color: red;
-    transform: translateY(-5px);
-    transition: 0.3s;
     
+
 }
+
+#link
+{
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    color: black; 
+}
+
+.link_facebook:hover
+{
+color:#4267B2;
+transform: translateY(-5px);
+transition: 0.3s;
+}
+
+.link_twitter:hover
+{
+color:#1DA1F2;
+transform: translateY(-5px);
+transition: 0.3s;
+}
+.link_instagram:hover
+{
+color:#E1306C;;
+transform: translateY(-5px);
+transition: 0.3s;
+}
+
+.link_linkedin:hover
+{
+color:#0a66c2;
+transform: translateY(-5px);
+transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+/* .link:hover */
+/* { */
+    /* color: red; */
+    /* transform: translateY(-5px); */
+    /* transition: 0.3s; */
+    /*  */
+/* } */
 
 
 
