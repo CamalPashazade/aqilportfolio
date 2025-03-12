@@ -59,7 +59,9 @@ const Home = () => {
       )} */}
 
 <div>
-<img src="/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-19.jpg" alt="" />
+{/* <img src="/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-19.jpg" alt="" /> */}
+<img src="/src/assets/aqilimages/photo_2025-02-23_20-25-19.jpg" alt="" />
+
 </div>
       
     </div>

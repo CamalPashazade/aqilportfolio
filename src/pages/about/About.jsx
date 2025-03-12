@@ -8,7 +8,9 @@ const About = () => {
     <div className={styles.about}>
 
       <div className={styles.banner}>
-      <Banner img='/aqilportfolio/src/assets/mugam6.jpg'/>
+      {/* <Banner img='/aqilportfolio/src/assets/mugam6.jpg'/> */}
+      <Banner img='/src/assets/mugam6.jpg'/>
+
 
       </div>
 
@@ -16,7 +18,9 @@ const About = () => {
       <div className={styles.aboutme}>
        
        <div className={styles.image}>
-       <img src="/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-24-41.jpg" alt="" />
+       {/* <img src="/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-24-41.jpg" alt="" /> */}
+       <img src="/src/assets/aqilimages/photo_2025-02-23_20-24-41.jpg" alt="" />
+
        </div>
 
 <div className={styles.ul}>

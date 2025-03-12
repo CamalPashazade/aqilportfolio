@@ -1,67 +1,139 @@
 
 
 
+// export const galleryImages = [
+
+
+// {
+//     id:1,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-24-41.jpg"
+// },
+// {
+//     id:2,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-03.jpg"
+// },
+// {
+//     id:3,
+//     img:"/src//assets/aqilimages/photo_2025-02-23_20-25-15.jpg"
+// },
+// {
+//     id:4,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-19.jpg"
+// },
+// {
+//     id:5,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-24.jpg"
+// },
+// {
+//     id:6,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-29.jpg"
+// },
+// {
+//     id:7,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-33.jpg"
+// },
+// {
+//     id:8,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-38.jpg"
+// },
+// {
+//     id:9,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-42.jpg"
+// },
+// {
+//     id:10,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-45.jpg"
+// },
+// {
+//     id:11,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-51.jpg"
+// },
+// {
+//     id:12,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-55.jpg"
+// },
+// {
+//     id:13,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-25-59.jpg"
+// },
+// {
+//     id:14,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-26-03.jpg"
+// },
+// {
+//     id:15,
+//     img:"/src/assets/aqilimages/photo_2025-02-23_20-26-07.jpg"
+// },
+// ]
+
+
+
+
+
+
+
+
 export const galleryImages = [
 
 
-{
-    id:1,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-24-41.jpg"
-},
-{
-    id:2,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-03.jpg"
-},
-{
-    id:3,
-    img:"/aqilportfolio/src//assets/aqilimages/photo_2025-02-23_20-25-15.jpg"
-},
-{
-    id:4,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-19.jpg"
-},
-{
-    id:5,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-24.jpg"
-},
-{
-    id:6,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-29.jpg"
-},
-{
-    id:7,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-33.jpg"
-},
-{
-    id:8,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-38.jpg"
-},
-{
-    id:9,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-42.jpg"
-},
-{
-    id:10,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-45.jpg"
-},
-{
-    id:11,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-51.jpg"
-},
-{
-    id:12,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-55.jpg"
-},
-{
-    id:13,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-25-59.jpg"
-},
-{
-    id:14,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-26-03.jpg"
-},
-{
-    id:15,
-    img:"/aqilportfolio/src/assets/aqilimages/photo_2025-02-23_20-26-07.jpg"
-},
-]
+    {
+        id:1,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-24-41.jpg"
+    },
+    {
+        id:2,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-03.jpg"
+    },
+    {
+        id:3,
+        img:"/src//assets/aqilimages/photo_2025-02-23_20-25-15.jpg"
+    },
+    {
+        id:4,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-19.jpg"
+    },
+    {
+        id:5,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-24.jpg"
+    },
+    {
+        id:6,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-29.jpg"
+    },
+    {
+        id:7,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-33.jpg"
+    },
+    {
+        id:8,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-38.jpg"
+    },
+    {
+        id:9,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-42.jpg"
+    },
+    {
+        id:10,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-45.jpg"
+    },
+    {
+        id:11,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-51.jpg"
+    },
+    {
+        id:12,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-55.jpg"
+    },
+    {
+        id:13,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-25-59.jpg"
+    },
+    {
+        id:14,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-26-03.jpg"
+    },
+    {
+        id:15,
+        img:"/src/assets/aqilimages/photo_2025-02-23_20-26-07.jpg"
+    },
+    ]
