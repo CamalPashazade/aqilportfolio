@@ -1,9 +1,28 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// import { defineConfig } from 'vite'
+// import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// // https://vite.dev/config/
+// export default defineConfig({
+//   plugins: [react()],
+//   // base:"/aqilportfolio"
+//     base: ''
+// })
+
+
 export default defineConfig({
   plugins: [react()],
-  // base:"/aqilportfolio"
-    base: ''
+  base: '',
+  server: {
+    cors: true,
+    mimeTypes: {
+      'jsx': 'application/javascript', // JSX üçün MIME tipini düzəlt
+      'js': 'application/javascript'
+    }
+  },
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: 'index.html'
+    }
+  }
 })
