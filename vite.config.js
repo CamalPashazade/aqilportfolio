@@ -14,6 +14,7 @@ export default defineConfig({
   base: '',
   server: {
     cors: true,
+    
     mimeTypes: {
       'jsx': 'application/javascript', // JSX üçün MIME tipini düzəlt
       'js': 'application/javascript'
