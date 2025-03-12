@@ -17,7 +17,7 @@ export default defineConfig({
     
     mimeTypes: {
       'jsx': 'application/javascript', // JSX üçün MIME tipini düzəlt
-      'js': 'application/javascript'
+      
     }
   },
   build: {
