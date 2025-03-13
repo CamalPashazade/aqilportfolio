@@ -2,7 +2,7 @@
   
 "homepage": "https://CamalPashazade.github.io/",
   "name": "aqilportfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
