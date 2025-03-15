@@ -6,7 +6,7 @@ import styles from './layout.module.css'
 import Navigation from '../navigation/Navigation';
 import Footer from '../footer/Footer';
 import NavMobile from '../navigation/NavMobile';
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 
 
 const Layout = ({ children }) => {
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <NavMobile/>
           <main className={styles.layout}>
             {children}
-            <Outlet /> 
+            {/* <Outlet />  */}
           </main>
          
       <Footer/>
