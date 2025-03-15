@@ -6,7 +6,7 @@ import About from './pages/about/About';
 import './index.css'
 import Gallery from "./pages/gallery/Gallery";
 import  Contact from "./pages/contact/Contact";
-import NotFound from "./components/notfound/NotFound";
+import NotFound from "./pages/notfound/NotFound";
 
 function App() {
 
