@@ -14,6 +14,12 @@ const styles = {
   container: {
     textAlign: 'center',
     marginTop: '50px',
+    width:"100%",
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height:'60vh',
   },
   header: {
     fontSize: '48px',
