@@ -51,6 +51,7 @@ const Gallery = () => {
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, Autoplay, EffectFade]}
               effect="fade"
+              loop={true} 
               slidesPerView={1}
               navigation={enableNavigation ? {
                 nextEl: `.${styles.customNextButton}`,

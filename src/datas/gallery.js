@@ -50,7 +50,8 @@ export const galleryImages = [
     },
     {
         id:11,
-        img:"/assets/aqilimages/photo_2025-02-23_20-25-51.jpg"
+        img:"/assets/aqilimages/photo_2025-02-23_20-26-07.jpg"
+
     },
     {
         id:12,
@@ -64,8 +65,5 @@ export const galleryImages = [
         id:14,
         img:"/assets/aqilimages/photo_2025-02-23_20-26-03.jpg"
     },
-    {
-        id:15,
-        img:"/assets/aqilimages/photo_2025-02-23_20-26-07.jpg"
-    },
+  
     ]
