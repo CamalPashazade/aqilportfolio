@@ -18,7 +18,7 @@ export const galleryImages = [
     },
     {
         id:3,
-        img:"//assets/aqilimages/photo_2025-02-23_20-25-15.jpg"
+        img:"/assets/aqilimages/photo_2025-02-23_20-25-15.jpg"
     },
     {
         id:4,
