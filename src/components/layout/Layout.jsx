@@ -21,8 +21,9 @@ const Layout = ({ children }) => {
       <NavMobile/>
           <main className={styles.layout}>
             {children}
+            <Outlet /> 
           </main>
-          <Outlet /> 
+         
       <Footer/>
 
         </div>
