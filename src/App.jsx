@@ -6,6 +6,7 @@ import About from './pages/about/About';
 import './index.css'
 import Gallery from "./pages/gallery/Gallery";
 import  Contact from "./pages/contact/Contact";
+import NotFound from "./components/notfound/NotFound";
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
 
 
       
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound/>} />
    
       </Routes>
       </Layout>
