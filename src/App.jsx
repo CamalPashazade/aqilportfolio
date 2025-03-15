@@ -25,7 +25,7 @@ function App() {
 
 
       
-          {/* <Route path="*" element={<NoPage />} /> */}
+          <Route path="*" element={<NotFound />} />
    
       </Routes>
       </Layout>
