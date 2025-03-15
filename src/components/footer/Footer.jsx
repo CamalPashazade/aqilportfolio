@@ -11,16 +11,16 @@ const Footer = () => {
     <footer className={styles.footer}>
 
 
-        <div className={styles.container}>
+      <div className={styles.container}>
 
-<p>Copyright ©2025 All rights reserved </p>
+        <p>Copyright ©2025 All rights reserved </p>
 
-<h3 className={styles.name}>S.Aqil</h3>
+        <h3 className={styles.name}>S.Aqil</h3>
 
 
-<div className={styles.social_media}>
+        <div className={styles.social_media}>
           <a href="https://www.facebook.com/aqil.suleymanov.1" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF className={`${styles.link} ${styles.link_facebook}`}  />
+            <FaFacebookF className={`${styles.link} ${styles.link_facebook}`} />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <FaTwitter className={`${styles.link} ${styles.link_twitter}`} />
@@ -32,8 +32,8 @@ const Footer = () => {
             <FaLinkedinIn className={`${styles.link} ${styles.link_linkedin}`} />
           </a>
         </div>
-        </div>
-      
+      </div>
+
     </footer>
   )
 }
