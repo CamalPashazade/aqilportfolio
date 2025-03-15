@@ -8,8 +8,10 @@ const About = () => {
     <div className={styles.about}>
 
       <div className={styles.banner}>
-      {/* <Banner img='/aqilportfolio/src/assets/mugam6.jpg'/> */}
-      <Banner img='/src/assets/mugam6.jpg'/>
+
+      {/* <Banner img='/src/assets/mugam6.jpg'/> */}
+      <Banner img='/assets/mugam6.jpg'/>
+
 
 
       </div>
