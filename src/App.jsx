@@ -11,6 +11,13 @@ import NotFound from "./pages/notfound/NotFound";
 function App() {
 
 
+  // useEffect(() => {
+  //   // Həmişə saytı ingilis dilində aç
+  //   document.documentElement.lang = 'en';
+  // }, []);
+  
+
+
   return (
     <>
 <div>
